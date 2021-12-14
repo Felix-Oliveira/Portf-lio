@@ -132,7 +132,7 @@ img{
 }
     
 .skill-img{
-    padding: 40px 16px;
+    padding: 20px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,6 +150,9 @@ img{
     .skill-img{
         flex-direction: column;
         justify-content:space-between;
+    }
+    .skill-img .colum{
+        flex-direction: row;
     }
 }
 
