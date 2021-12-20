@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/svg/f.svg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500&display=swap" rel="stylesheet">
@@ -15,17 +16,27 @@
 
         <nav class='menu'>
 
-            <div class="menu-left mobile">
-                <a href="#home" class="link">Home</a>
-                <a href="#abaut" class="link">About</a>
-            </div>
+             <div class="menu-logo"><a href='#'> <img src='assets/svg/f.svg'></a></div>
 
-            <div class="menu-logo">Felix Oliveira</div>
+            <ul class="menu-links ">
+               <li> <a href="#home" class="link">Home</a></li>
+               <li> <a href="#about" class="link">About</a></li>
 
-            <div class="menu-right mobile">
-                <a href="#works" class="link ">Works</a>
-                <a href="#get" class="link ">Get in touch</a>
+
+               <li ><a href="#works" class="link ">Works</a></li>
+               <li> <a href="#get" class="link ">Get in touch</a></li>
+            </ul>
+
+          
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
+            
+
+
+
 
         </nav>
     </header>
@@ -125,22 +136,22 @@
 
             <div class="skill-img colum">
                 <div class="skill-item">
-                    <img src="assets/html-5.png" alt="">
+                    <img src="assets/html-5.png" alt="html5">
                     <h4 class="skill-title">HTML</h4>
                 </div>
                 <div class="skill-item">
-                    <img src="assets/css-3.png" alt="">
+                    <img src="assets/css-3.png" alt="css3">
                     <h4 class="skill-title">CSS</h4>
                 </div>
             </div>
 
             <div class="skill-img colum">
                 <div class="skill-item">
-                    <img src="assets/icons8-javascript-96.png" alt="">
+                    <img src="assets/icons8-javascript-96.png" alt="javascript">
                     <h4 class="skill-title">JAVASCRIPT</h4>
                 </div>
                 <div class="skill-item">
-                    <img src="assets/icons8-reagir-480.png" alt="">
+                    <img src="assets/icons8-reagir-480.png" alt="reactjs">
                     <h4 class="skill-tite">REACT JS</h4>
                 </div>
             </div>
@@ -158,7 +169,7 @@
         <div class="list-item py-6">
             <h5 class="color-gray mr-2">01.</h5>
             <a href="" target="_blank"><h3>Nubank</h3></a>
-            <img src="/assets/img/lp-nubank.png" class="img-project" alt="">
+            <img src="assets/img/lp-nubank.png" class="img-project" alt="">
         </div>
 
         <div class="bb-gray"></div>
@@ -166,7 +177,7 @@
         <div class="list-item py-6">
             <h5 class="color-gray mr-2">02.</h5>
             <a href="" target="_blank"><h3>FrontPUSH</h3></a>
-            <img src="/assets/img/lp-frontpush.png" class="img-project" alt="">
+            <img src="assets/img/lp-frontpush.png" class="img-project" alt="">
             
         </div>
 
@@ -175,7 +186,7 @@
         <div class="list-item py-6">
             <h5 class="color-gray mr-2">03.</h5>
             <a href="" target="_blank"><h3>Spiderman</h3></a>
-            <img src="/assets/img/lp-spiderman.png" class="img-project" alt="">
+            <img src="assets/img/lp-spiderman.png" class="img-project" alt="">
         </div>
 
     </section>
@@ -206,27 +217,29 @@
         <h2>Get in touch</h2>
         <div class="social-midia">
             <div class="social-midia-img">
-                <a href="#">
-                    <img src="assets/icons8-github-90.png" alt="">
+                <a href="https://github.com/Felix-Oliveira" target="_blank">
+                    <img src="assets/icons8-github-90.png" alt="github">
                     <h6 class='mask'>Github</h6>
                 </a>  
             </div>
             <div class="social-midia-img">
-                <a href="#">
-                    <img src="assets/icons8-instagram-144.png" alt="">
+                <a href="https://www.instagram.com/felix_oliveira.dev" target="_blank">
+                    <img src="assets/icons8-instagram-144.png" alt="instagram">
                     <h6 class='mask'>Instagram</h6>
                 </a>  
             </div>
             <div class="social-midia-img">
-                <a href="#">
-                    <img src="assets/icons8-facebook-144.png" alt="">
-                    <h6 class='mask'>Facebook</h6>
+                <a href="https://www.linkedin.com/in/felix-oliveira/" target="_blank">
+                    <img src="assets/linkedin.png" alt="linkedin">
+                    <h6 class='mask'>Linkedin</h6>
                 </a>  
             </div>
         </div>
     </section>
     
     <div class="bb-gray"></div>
+
+    <script src="app.js"></script>
 
 </body>
 </html>

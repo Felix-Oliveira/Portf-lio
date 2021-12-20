@@ -7,6 +7,10 @@ h1, h2, h3, h4, h5, h6, p, a{
 a{
     text-decoration: none;
 }
+li{
+    list-style: none;
+}
+
 
 .link{
     padding:8px 24px;
@@ -61,12 +65,12 @@ h1{
 
 
 h2{
-    font-size: 72px;
+    font-size: 54px;
     line-height: 110%;
 }
 
 h3{
-    font-size: 48px;
+    font-size: 45px;
     line-height: 110%;
 }
 
@@ -104,6 +108,7 @@ h6{
     padding: 16px 24px;
 
     position: relative;
+   
 
     &::after{
         content: '';
@@ -113,7 +118,7 @@ h6{
         top: 0;
         left: 0;
 
-        z-index: -1;
+        z-index: -4;
 
         width: 96px;
         height: 96px;
@@ -156,7 +161,7 @@ p{
     }
 
     h2{
-        font-size: 58px;
+        font-size: 50px;
         
         
     }
